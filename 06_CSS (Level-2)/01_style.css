@@ -1,0 +1,101 @@
+/* Universal selector */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element Selector */
+h3 {
+    color: purple;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+/* ID selector */
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class selector */
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+/* Descendant selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li {
+    color: hotpink;
+}
+
+/* Sibling Combinator */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+div>input {
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color: green;
+}
+input[type] {
+    background-color: ghostwhite;
+}
+
+/* Pseudo Classes */
+/* 1. Hover */
+button:hover {
+    color: white;
+    background-color: black;
+}
+/* 2. active */
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+/* 3.checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+/* 4.nth-of-type */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* Pseudo Element */
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    background-color: limegreen;
+}
