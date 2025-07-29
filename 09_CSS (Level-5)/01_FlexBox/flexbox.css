@@ -1,0 +1,44 @@
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    justify-content: flex-start;     /* main axis */
+    /* justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;*/
+    /* justify-content: space-evenly; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+
+    align-items: flex-start;
+    /* align-items: center;
+    align-items: baseline; */
+    /* align-items: flex-end; */
+
+    align-content: flex-start;       /* cross axis */
+
+    /* flex-grow | flex-shrink | flex-basis  */
+    flex: 2 2 100px;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
