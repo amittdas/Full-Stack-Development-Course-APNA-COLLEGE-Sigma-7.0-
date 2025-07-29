@@ -1,0 +1,16 @@
+#shadow{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
+#bimg{
+    width: 250px;
+    height: 250px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(04_bimg.jpg);
+    background-size: cover;
+}
