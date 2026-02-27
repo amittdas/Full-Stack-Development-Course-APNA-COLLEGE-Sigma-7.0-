@@ -1,0 +1,5 @@
+NAVIGATION : Inside & Outside DIRECTORY
+
+1. cd = CHANGE DIRECTORY --> go inside another DIRECTORY
+
+2. cd .. = BACK BUTTON --> back outside of the DIRECTORY
