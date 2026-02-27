@@ -1,0 +1,10 @@
+
+1. ls = LIST FILES  --> show my FILES
+
+2. pwd = PRINT WORKING DIRECTORY  --> where am I ?
+
+3. clear = CLEAR SCREEN
+
+4. upward arrow = PREVIOS COMMAND
+
+4. downward arrow = NEXT COMMAND
