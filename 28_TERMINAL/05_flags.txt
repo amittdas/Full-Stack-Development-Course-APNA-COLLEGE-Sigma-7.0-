@@ -1,0 +1,16 @@
+FLAGS: Flags are characters that we pass with commands to modify their behaviours
+
+MANUAL COMMAND:
+man ls  --> give info about ls command
+man mkdir  --> give info about mkdir command
+
+ls command (list files):
+-l (long format): Shows detailed information like permissions, ownership, and size.
+-a (all): Lists all files, including hidden ones (which start with a dot .).
+-h (human-readable): Used with -l (as in ls -lh) to show file sizes in easily readable formats like KB, MB, or GB.
+
+mkdir command (make directory):
+-p (parents): Creates parent directories if they don't already exist.
+cp or rm commands (copy or remove files):
+-v (verbose): Explains what is being done by printing messages to the console.
+-r (recursive): Operates on directories and their contents (necessary for deleting or copying entire directories).
