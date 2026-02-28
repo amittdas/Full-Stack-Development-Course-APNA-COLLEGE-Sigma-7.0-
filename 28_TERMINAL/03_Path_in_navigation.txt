@@ -1,0 +1,8 @@
+
+1. RELATIVE PATH:  cd Desktop/Delta
+
+2. ABSOLUTE PATH:  /Users/AmitDas/Desktop
+
+3.  / = Root directory
+
+4.  ~ = Home directory
