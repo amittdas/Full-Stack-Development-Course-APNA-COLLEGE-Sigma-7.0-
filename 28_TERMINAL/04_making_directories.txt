@@ -1,0 +1,3 @@
+mkdir means this command makes a new folder
+
+Example: mkdir MyPhotos
