@@ -1,0 +1,41 @@
+Deleting Files
+Delete a single file:
+bash
+rm filename.txt
+
+
+Delete multiple files:
+bash
+rm file1.txt file2.txt file3.txt
+Delete files matching a pattern (e.g., all files ending with .log in the current directory):
+bash
+rm *.log
+
+
+Prompt for confirmation before deletion:
+bash
+rm -i filename.txt
+Type y and press Enter to confirm each deletion.
+Force deletion without prompting:
+bash
+rm -f filename.txt
+
+
+This is useful for removing write-protected files or ignoring non-existent files. 
+Educative
+Educative
+ +4
+Deleting Directories (Folders)
+Delete an empty directory:
+bash
+rmdir dirname
+
+
+This command only works if the directory is empty.
+Delete a non-empty directory and all its contents (recursively):
+bash
+rm -r dirname
+The -r (recursive) option tells rm to delete the specified directory and everything inside it, including subdirectories and their files.
+Forcefully delete a non-empty directory and its contents without prompting:
+bash
+rm -rf dirname
