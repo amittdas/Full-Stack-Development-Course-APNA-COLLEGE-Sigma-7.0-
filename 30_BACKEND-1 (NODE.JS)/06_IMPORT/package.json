@@ -1,0 +1,12 @@
+{
+  "name": "06_import",
+  "version": "1.0.0",
+  "description": "learning import module",
+  "license": "ISC",
+  "author": "Amit Das",
+  "main": "maths.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module"
+}
